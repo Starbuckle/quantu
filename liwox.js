@@ -29,7 +29,7 @@ var body = $response.body.replace(/playerInfo_gold\\":\d+/g,'playerInfo_gold\\":
 .replace(/playerInfo_buildScore\\":\d+/g,'playerInfo_buildScore\\":88998')
 .replace(/playerInfo_shipuScore\\":\d+/g,'playerInfo_shipuScore\\":88898')
 .replace(/playerInfo_diamond\\":\d+/g,'playerInfo_diamond\\":8888')
-.replace(/playerInfo_star\\":\d+/g,'playerInfo_star\\":8888')
-.replace(/playerInfo_sun\\":\d+/g,'playerInfo_sun\\":8888')
-.replace(/playerInfo_moon\\":\d+/g,'playerInfo_moon\\":8888')
+.replace(/playerInfo_niudanji\\":\d+/g,'playerInfo_star\\":8888')
+.replace(/playerInfo_niudanji\\":\d+/g,'playerInfo_sun\\":8888')
+.replace(/playerInfo_niudanji\\":\d+/g,'playerInfo_moon\\":8888')
 $done({ body });
