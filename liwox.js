@@ -25,8 +25,8 @@ hostname = www.liwoxiao.com
 
 *******************************/
 
-var body = $response.body.replace(/playerInfo_gold\\":\d+/g,'playerInfo_gold\\":88888888')
+var body = $response.body.replace(/playerInfo_gold\\":\d+/g,'playerInfo_gold\\":88878')
 .replace(/playerInfo_buildScore\\":\d+/g,'playerInfo_buildScore\\":88888888')
-.replace(/playerInfo_shipuScore\\":\d+/g,'playerInfo_shipuScore\\":8888')
+.replace(/playerInfo_shipuScore\\":\d+/g,'playerInfo_shipuScore\\":88898')
 .replace(/playerInfo_diamond\\":\d+/g,'playerInfo_diamond\\":8888')
 $done({ body });
