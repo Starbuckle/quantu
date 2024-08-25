@@ -17,11 +17,11 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^http[s]?:\/\/www.liwox.com\/api\/game\/account\/data\/download url script-response-body https://raw.githubusercontent.com/Starbuckle/quantu/main/liwox.js
+^http[s]?:\/\/www.liwoxiao.com\/api\/game\/account\/data\/download url script-response-body https://raw.githubusercontent.com/Starbuckle/quantu/main/liwox.js
 
 [mitm] 
 
-hostname = www.liwox.com
+hostname = www.liwoxiao.com
 
 *******************************/
 
